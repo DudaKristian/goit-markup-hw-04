@@ -290,6 +290,15 @@ header {
   margin-bottom: 30px;
   min-width: 370px;
 }
+.card-list-text {
+  margin: 20px 24px;
+}
+.portfolio-title {
+  margin-bottom: 4px;
+}
+.portfolio-description {
+  margin-top: 0;
+}
 /* FOOTER */
 .footer {
   background-color: var(--hero-background-color);
