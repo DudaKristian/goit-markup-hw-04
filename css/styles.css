@@ -16,6 +16,7 @@ html {
   --background-color: #f5f4fa;
   --hero-background-color: #2f303a;
   --header-border-color: #ececec;
+  --logo-color: #afb1b8;
 }
 
 .container {
@@ -93,6 +94,7 @@ header {
 .contacts :hover,
 .contacts :focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .navigation > li,
 .contacts > li {
@@ -118,12 +120,21 @@ header {
   margin-left: auto;
 }
 
+.icon-header {
+  width: 16px;
+  height: 12px;
+  fill: var(--text-color);
+  margin-right: 10px;
+}
+
 /* HERO */
 .hero {
   margin-top: 0;
   max-width: 1600px;
+  height: 600px;
   padding: 200px 0;
   background-color: var(--hero-background-color);
+  background-image: url(../images/hero-bgi.jpg);
 }
 .hero-title {
   color: var(--accent-white);
@@ -164,7 +175,14 @@ header {
 .advantage-title {
   display: none;
 }
-
+.icons-background {
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-color);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  padding: 25px 100px;
+}
 .container > ul {
   margin-top: 0;
 }
@@ -212,6 +230,10 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 0;
+}
+.teammember-job {
+  margin-bottom: 0;
 }
 .team {
   background-color: var(--background-color);
@@ -230,6 +252,57 @@ header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.link-list {
+  display: flex;
+  justify-content: center;
+}
+.link-list-item {
+  display: block;
+  height: 44px;
+  width: 44px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  fill: var(--logo-color);
+}
+
+.team-icon {
+  margin-top: 12px;
+}
+.link-list-item:hover,
+.link-list-item:focus {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  fill: #fff;
+  cursor: pointer;
+}
+/* clients section */
+.clients-title {
+  padding-top: 94px;
+}
+.clients-list{
+  display: flex;
+  justify-content: space-between;
+}
+.client-link:hover,
+.client-link:focus{
+fill: var(--accent-color);
+border: 1px solid var(--accent-color);
+cursor: pointer;
+border-radius: 4px;
+}
+.client-icon{
+  width: 106px;
+  height: 60px;
+}
+.client-link{
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  display: block;
+  padding: 16px 32px;  
+  fill: var(--logo-color);
 }
 /* Portfolio buttons */
 .filter {
@@ -289,6 +362,11 @@ header {
   /* margin-right: 30px; */
   margin-bottom: 30px;
   min-width: 370px;
+}
+.card-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 .card-list-text {
   margin: 20px 24px;
