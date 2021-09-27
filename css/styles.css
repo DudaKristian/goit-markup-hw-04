@@ -280,28 +280,28 @@ header {
 .clients-title {
   padding-top: 94px;
 }
-.clients-list{
+.clients-list {
   display: flex;
   justify-content: space-between;
 }
 .client-link:hover,
-.client-link:focus{
-fill: var(--accent-color);
-border: 1px solid var(--accent-color);
-cursor: pointer;
-border-radius: 4px;
+.client-link:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  cursor: pointer;
+  border-radius: 4px;
 }
-.client-icon{
+.client-icon {
   width: 106px;
   height: 60px;
 }
-.client-link{
-  border: 1px solid #AFB1B8;
+.client-link {
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 92px;
   display: block;
-  padding: 16px 32px;  
+  padding: 16px 32px;
   fill: var(--logo-color);
 }
 /* Portfolio buttons */
