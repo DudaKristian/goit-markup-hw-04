@@ -92,7 +92,9 @@ header {
 .navigation :focus,
 .navigation :hover,
 .contacts :hover,
-.contacts :focus {
+.contacts :focus,
+.contacts :hover use,
+.contacts :focus use {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
